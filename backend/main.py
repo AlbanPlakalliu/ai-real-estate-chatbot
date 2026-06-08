@@ -9,9 +9,9 @@ try:
     from app.api.v1.chat import router as chat_router
     from app.api.v1.analytics import router as analytics_router
     from app.api.v1.users import router as users_router
-    print("✅ All routers imported successfully")
+    print("All routers imported successfully")
 except Exception as e:
-    print(f"❌ Import error: {e}")
+    print(f"Import error: {e}")
     properties_router = None
     chat_router = None
     analytics_router = None
